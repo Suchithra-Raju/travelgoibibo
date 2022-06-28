@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "travelgoibibo.com">
+
+<listeners>
+
+<listener class-name="com.travelgoibibo.com.utilities.Reporting"/>
+
+</listeners>
+<test name = "Test1">
+
+<parameter name = "browser" value = "chrome"/>
+
+<classes>
+
+<class name= "com.travelgoibibo.com.testcases.TC_FilterHotel_004"/>
+<!--class name= "com.travelgoibibo.com.testcases.TC_BookaHotel_002"/>
+<class name= "com.travelgoibibo.com.testcases.TC_LogHotelTitle_001"/>
+<class name= "com.travelgoibibo.com.testcases.TC_HotelDetails_003"/>
+<class name= "com.travelgoibibo.com.testcases.TC_FilterHotel_004"/-->
+
+
+
+
+</classes>
+
+
+
+
+</test>
+
+
+</suite>
+
+
